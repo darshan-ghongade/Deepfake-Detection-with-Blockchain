@@ -38,7 +38,7 @@ contract DetectionLog {
     mapping(address => bool) private _authorizedDetectors;
     
     constructor() {
-        _owner = 0xDC9141873EcFD67829B8BaaA8D0F425da4463CA0; // Your wallet address
+        _owner = _____________________________; // Your wallet address
         _authorizedDetectors[_owner] = true;
         emit OwnershipTransferred(address(0), _owner);
     }
