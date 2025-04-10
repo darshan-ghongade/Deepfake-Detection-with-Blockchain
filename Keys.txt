@@ -1,0 +1,4 @@
+const provider = new ethers.JsonRpcProvider('https://sepolia.infura.io/v3/46196f83672a43b1ab82cebff69ac1b0');
+const privateKey = process.env.PRIVATE_KEY || '56d1da213833ff9d85cb83f97f2f3a16e1d91d1ab397c18121968a0abb989a61';
+const wallet = new ethers.Wallet(privateKey, provider);
+const contractAddress = '0x7e75e2cc09b46a3a8abfa1916e83340061941b3d';
